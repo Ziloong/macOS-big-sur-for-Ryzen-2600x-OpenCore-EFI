@@ -44,8 +44,7 @@ CPU：AMD Ryzen2600x six-core
 
 - 显卡免驱，支持硬解加速
 - [刷入RX570 Vbios](http://bbs.pcbeta.com/viewthread-1822790-1-1.html)
-- ![image-20200719040550344](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719040550344.png)
-![https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719040550344.png?raw=true]()
+![](![image-20200719040550344.png](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719040550344.png?raw=true))
 
 
 ### 声卡：Realtek ALC892 
