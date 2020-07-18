@@ -1,3 +1,8 @@
+---
+typora-root-url: ./Readme_jpg
+typora-copy-images-to: ./Readme_jpg
+---
+
 ## MSI X470 Gaming Plus_Ryzen 2600X Hackintosh Opencore
 
 
@@ -44,18 +49,16 @@ CPU：AMD Ryzen2600x six-core
 
 - 显卡免驱，支持硬解加速
 - [刷入RX570 Vbios](http://bbs.pcbeta.com/viewthread-1822790-1-1.html)
-![](![image-20200719040550344.png](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719040550344.png?raw=true))
 
+![image-20200719040550344](/image-20200719040550344.png)
 
 ### 声卡：Realtek ALC892 
 
 - 驱动：[AppleALC 1.5.1](https://github.com/acidanthera/AppleALC)
-
 - 采用 `DeviceProperties`方法注入 , 注入[layout-ID](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)  具体注入ID自行尝试
-
 - HDMI、DP音频输出正常
 
-  ![image-20200719042134445](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719042134445.png)
+![image-20200719042134445](/image-20200719042134445.png)
 
 
 
@@ -65,9 +68,13 @@ CPU：AMD Ryzen2600x six-core
 - 音频MIDI设置 需要修改格式 44100hz 8声道32位
 - 配置扬声器声道 5、6
 
-![image-20200719042308970](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719042308970.png)![image-20200719042808973](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719042808973.png)![image-20200719042817705](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719042817705.png)
+![image-20200719042308970](/image-20200719042308970.png)
 
+![image-20200719042817705](/image-20200719042817705.png)
 
+![image-20200719045442289](/image-20200719045442289.png)
+
+![image-20200719045451385](/image-20200719045451385.png)
 
 ### 网卡：RTL8111 
 
@@ -75,23 +82,21 @@ CPU：AMD Ryzen2600x six-core
 - 网卡内建  采用 `DeviceProperties`方法注入built-in 01
 - iCloud正常，Facetime正常，iMessage正常
 
-![image-20200719043308572](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719043308572.png)![image-20200719043320005](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719043320005.png)
-
-
+![image-20200719043320005](/image-20200719043320005.png)
 
 ### USB : 端口定制
 
 - 驱动：SSDT-EC-USBX.aml
 - 使用 [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) 定制USB
 
-![image-20200719043629540](/Users/ziloong/Library/Application Support/typora-user-images/image-20200719043629540.png)
 
 
+![image-20200719043629540](/image-20200719043629540.png)
 
 ### 杂项
 
 - Drivers
   - AudioDxe.efi UEFI音频驱动
   - HFSPlus.efi  文件系统驱动
-  - OpenCanopy.efi  OpenCore主题驱动
+  - OpenCanopy.efi  OpenCore主题
   - OpenRuntime.efi 内存驱动
