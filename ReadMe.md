@@ -102,3 +102,21 @@ CPU：AMD Ryzen2600x six-core
   使用[Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) 进入到PCie选项 找到硬盘的设备地址 `PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)` 
 
   Properties方式注入`built-in` 数据类型DATA写上`01`
+  
+  
+
+## 感谢
+
+**Acidanthera** 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
+
+
+
+#### AMD_Vanilla
+
+- [AlGrey](https://github.com/AlGreyy)提出了这个想法并创建了补丁。
+- [XLNC](https://github.com/XLNCs)用于维护各种macOS版本的补丁。
+- Sinetek，Andy Vandijck，spakk，Bronya，Tora Chi Yo，Shaneeee等分享了他们的AMD / XNU内核知识
+- [0xD81CF](https://github.com/0xD81CF)，[dosprintfwork](https://github.com/doesprintfwork)和[erikjara](https://github.com/erikjara)用于自述翻译。
+
+##### [Opencore安装指南](https://dortania.github.io/OpenCore-Install-Guide/)
+
