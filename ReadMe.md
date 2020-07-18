@@ -58,7 +58,7 @@ CPU：AMD Ryzen2600x six-core
 - 采用 `DeviceProperties`方法注入 , 注入[layout-ID](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)  具体注入ID自行尝试
 - HDMI、DP音频输出正常
 
-![image-20200719042134445](/image-20200719042134445.png)
+![image-20200719042134445](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719040550344.png?raw=true)
 
 
 
