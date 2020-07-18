@@ -1,7 +1,3 @@
----
-typora-root-url: ./Readme_jpg
-typora-copy-images-to: ./Readme_jpg
----
 
 ## MSI X470 Gaming Plus_Ryzen 2600X Hackintosh Opencore
 
