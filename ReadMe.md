@@ -96,3 +96,9 @@ CPU：AMD Ryzen2600x six-core
   - HFSPlus.efi  文件系统驱动
   - OpenCanopy.efi  OpenCore主题
   - OpenRuntime.efi 内存驱动
+  
+- intel 760p nvme外置硬盘改内置问题
+
+  使用[Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) 进入到PCie选项 找到硬盘的设备地址 `PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)` 
+
+  Properties方式注入`built-in` 数据类型DATA写上`01`
