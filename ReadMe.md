@@ -1,4 +1,4 @@
-## <u>**MSI X470 Gaming Plus_Ryzen 2600X Mackintosh**</u>
+## <u>**MSI X470 Gaming Plus_Ryzen 2600X Hackintosh OpenCore**</u>
 
 -Motherboard model：MSI X470 Gaming Plus 
 
