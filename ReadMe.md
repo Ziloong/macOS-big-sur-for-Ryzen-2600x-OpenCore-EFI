@@ -35,6 +35,7 @@ CPU：AMD Ryzen2600x six-core
 - [修复Adobe在AMD平台上崩溃的问题](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)
   - 经过测试的Adobe（2020）Photopshop，LightRoom Classic，Illustrator，Premier Pro，After Effects Bridge，Indesign，XD。如果重新安装任何Adobe应用程序，则将需要再次重做STEP-3。
 
+- [如果你拥有创新声卡请看这里](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/SB1550drive/README.md)
 
 ## 配置说明
 
