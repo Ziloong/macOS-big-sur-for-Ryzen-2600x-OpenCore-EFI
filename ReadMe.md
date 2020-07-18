@@ -50,7 +50,7 @@ CPU：AMD Ryzen2600x six-core
 - 显卡免驱，支持硬解加速
 - [刷入RX570 Vbios](http://bbs.pcbeta.com/viewthread-1822790-1-1.html)
 
-![image-20200719040550344](/image-20200719040550344.png)
+![image-20200719040550344](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719040550344.png?raw=true)
 
 ### 声卡：Realtek ALC892 
 
@@ -58,7 +58,7 @@ CPU：AMD Ryzen2600x six-core
 - 采用 `DeviceProperties`方法注入 , 注入[layout-ID](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)  具体注入ID自行尝试
 - HDMI、DP音频输出正常
 
-![image-20200719042134445](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719040550344.png?raw=true)
+![image-20200719042134445](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719042134445.png?raw=true)
 
 
 
@@ -68,13 +68,13 @@ CPU：AMD Ryzen2600x six-core
 - 音频MIDI设置 需要修改格式 44100hz 8声道32位
 - 配置扬声器声道 5、6
 
-![image-20200719042308970](/image-20200719042308970.png)
+![image-20200719042308970](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719042308970.png?raw=true)
 
-![image-20200719042817705](/image-20200719042817705.png)
+![image-20200719042817705](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719042817705.png?raw=true)
 
-![image-20200719045442289](/image-20200719045442289.png)
+![image-20200719045442289](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719045442289.png?raw=true)
 
-![image-20200719045451385](/image-20200719045451385.png)
+![image-20200719045451385](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719045451385.png?raw=true)
 
 ### 网卡：RTL8111 
 
@@ -82,7 +82,7 @@ CPU：AMD Ryzen2600x six-core
 - 网卡内建  采用 `DeviceProperties`方法注入built-in 01
 - iCloud正常，Facetime正常，iMessage正常
 
-![image-20200719043320005](/image-20200719043320005.png)
+![image-20200719043320005](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719043320005.png?raw=true)
 
 ### USB : 端口定制
 
@@ -91,7 +91,7 @@ CPU：AMD Ryzen2600x six-core
 
 
 
-![image-20200719043629540](/image-20200719043629540.png)
+![image-20200719043629540](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719043629540.png?raw=true)
 
 ### 杂项
 
