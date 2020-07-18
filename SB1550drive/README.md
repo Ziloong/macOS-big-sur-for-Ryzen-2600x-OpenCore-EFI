@@ -6,7 +6,7 @@
 
 ## 驱动方法
 
-- [禁用SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
+- [关闭SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
 
 - 解锁SLE修改权限 打开终端依次输入
 
