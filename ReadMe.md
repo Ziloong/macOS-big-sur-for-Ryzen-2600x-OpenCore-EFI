@@ -41,6 +41,23 @@
 
 - [如果你拥有创新声卡请看这里](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/SB1550drive/README.md)
 
+- Drivers
+  - AudioDxe.efi UEFI音频驱动
+  - HFSPlus.efi  文件系统驱动
+  - OpenCanopy.efi  OpenCore主题
+  - OpenRuntime.efi 内存驱动
+  
+- intel 760p nvme外置硬盘改内置问题
+
+  使用[Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) 进入到PCie选项 找到硬盘的设备地址 `PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)` 
+
+  Properties方式注入`built-in` 数据类型DATA写上`01`
+
+
+
+
+
+
 ## 配置说明
 
 ### 处理器：AMD Ryzen 2600x 6c8t
@@ -96,19 +113,7 @@
 
 ![image-20200719043629540](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719043629540.png?raw=true)
 
-### 杂项
 
-- Drivers
-  - AudioDxe.efi UEFI音频驱动
-  - HFSPlus.efi  文件系统驱动
-  - OpenCanopy.efi  OpenCore主题
-  - OpenRuntime.efi 内存驱动
-  
-- intel 760p nvme外置硬盘改内置问题
-
-  使用[Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) 进入到PCie选项 找到硬盘的设备地址 `PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)` 
-
-  Properties方式注入`built-in` 数据类型DATA写上`01`
   
   
 
