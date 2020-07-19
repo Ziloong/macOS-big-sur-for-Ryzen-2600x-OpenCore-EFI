@@ -14,7 +14,7 @@
 - 硬盘：intel 760p 500G nvme
 
 - 显卡
-  - Powercolor RX580 2048sp （flash Vbios RX570）
+  - Powercolor RX580 2048sp （刷 Vbios RX570免驱）
   - Nvdia GTX1070ti  (无法驱动，我A+N双显卡，这个不影响)
 
 - 声卡
