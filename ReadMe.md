@@ -123,3 +123,4 @@ CPU：AMD Ryzen2600x six-core
 
 ##### [Opencore安装指南](https://dortania.github.io/OpenCore-Install-Guide/)
 
+**@ITzTravelInTime** [kx-audio-driver](https://github.com/ITzTravelInTime/kx-audio-driver)
