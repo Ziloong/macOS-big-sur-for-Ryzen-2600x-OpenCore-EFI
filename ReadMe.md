@@ -113,6 +113,14 @@
 
 ![image-20200719043629540](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/Readme_jpg/image-20200719043629540.png?raw=true)
 
+### 杂项
+
+- [工具](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/tree/master/tools)
+  - [编辑config工具](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/tree/master/tools/ProperTree-master)
+  - [生成SMBIOS](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/tree/master/tools/GenSMBIOS-master)
+  - [SSDT生成](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/tree/master/tools/SSDTTime-master)
+  
+
 
   
   
@@ -120,6 +128,7 @@
 ## 感谢
 
 **Acidanthera** 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
+
 
 
 
