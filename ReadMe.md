@@ -14,8 +14,10 @@ CPU：AMD Ryzen2600x six-core
 硬盘：intel 760p 500G nvme
 
 显卡：Powercolor RX580 2048sp （flash Vbios RX570）
+     Nvdia GTX1070ti  (无法驱动，我A+N双显卡，这个不影响)
 
-声卡：ALC892 and Sound Blaster Audigy FX SB1550 7.1  （请自行在opencore删除kXAudioDriver.kext，否则AppleALC不能正常加载）
+声卡：Realtek ALC892 
+     Sound Blaster Audigy FX SB1550 7.1  （请自行在opencore删除kXAudioDriver.kext，否则AppleALC不能正常加载）
 
 网卡：RealtekRTL8111 
 
