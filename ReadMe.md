@@ -3,23 +3,25 @@
 
 
 
-主板：MSI X470 Gaming Plus 
+- 主板：MSI X470 Gaming Plus 
 
-系统：macOS Big Sur 11.0 Beta (20A4300b)
+- 系统：macOS Big Sur 11.0 Beta (20A4300b)
 
-CPU：AMD Ryzen2600x six-core
+- CPU：AMD Ryzen2600x six-core
 
-闪存：GALAX 8G 3600Mhz X4
+- 闪存：GALAX 8G 3600Mhz X4
 
-硬盘：intel 760p 500G nvme
+- 硬盘：intel 760p 500G nvme
 
-显卡：- Powercolor RX580 2048sp （flash Vbios RX570）
-     - Nvdia GTX1070ti  (无法驱动，我A+N双显卡，这个不影响)
+- 显卡
+  - Powercolor RX580 2048sp （flash Vbios RX570）
+  - Nvdia GTX1070ti  (无法驱动，我A+N双显卡，这个不影响)
 
-声卡：- Realtek ALC892 
-     - Sound Blaster Audigy FX SB1550 7.1  （请自行在opencore删除kXAudioDriver.kext，否则AppleALC不能正常加载）
+- 声卡
+  - Realtek ALC892 
+  - Sound Blaster Audigy FX SB1550 7.1  （请自行在opencore删除kXAudioDriver.kext，否则AppleALC不能正常加载）
 
-网卡：RealtekRTL8111 
+- 网卡：RealtekRTL8111 
 
 
 
