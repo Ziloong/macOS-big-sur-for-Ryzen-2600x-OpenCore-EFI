@@ -15,7 +15,7 @@ CPU：AMD Ryzen2600x six-core
 
 显卡：Powercolor RX580 2048sp （flash Vbios RX570）
 
-声卡：ALC892 and Sound Blaster Audigy FX SB1550 7.1
+声卡：ALC892 and Sound Blaster Audigy FX SB1550 7.1  （请自行在opencore删除kXAudioDriver.kext，否则AppleALC不能正常加载）
 
 网卡：RealtekRTL8111 
 
