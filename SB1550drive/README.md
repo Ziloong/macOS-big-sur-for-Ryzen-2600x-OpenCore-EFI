@@ -3,8 +3,11 @@
 ------
 
 
+## 驱动方法1（建议使用）
 
-## 驱动方法
+- 挂载EFI分区，将kXAudioDriver.kext复制到OpenCore，并在config添加
+
+## 驱动方法2
 
 - [关闭SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
 
@@ -40,7 +43,7 @@
 
   然后到系统安全性里面解锁
 
-- 挂载EFI分区，将kXAudioDriver.kext复制到OpenCore，并在config添加
+
 
 - 最后重启电脑
 
