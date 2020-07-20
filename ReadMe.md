@@ -31,6 +31,15 @@
 
 
 `sudo pmset -a hibernatemode 0`
+`sudo pmset autopoweroff 0 `
+`sudo pmset powernap 0 `
+`sudo pmset standby 0`
+`sudo pmset proximitywake 0`
+
+1、禁用自动关机功能：这是一种休眠方式
+2、禁用电源小睡：用于定期唤醒计算机以进行网络连接和更新（但不显示）
+3、禁用待机：用作从睡眠到休眠的时间段
+4、禁用从iPhone / Watch唤醒：特别是当iPhone或Apple Watch靠近时，机器将唤醒
 
 - 开启Hidpi
 
