@@ -36,6 +36,12 @@
   - `sudo pmset standby 0`禁用待机：用作从睡眠到休眠的时间段
   - `sudo pmset proximitywake 0`禁用从iPhone / Watch唤醒：特别是当iPhone或Apple Watch靠近时，机器将唤醒
 
+  - 在您的BIOS中：
+
+    - 禁用：局域网唤醒
+    - 启用：蓝牙唤醒（如果使用蓝牙设备像键盘一样唤醒，则可以禁用）
+
+
 
 - 开启Hidpi
 
