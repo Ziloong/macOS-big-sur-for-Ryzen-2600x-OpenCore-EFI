@@ -47,19 +47,19 @@
 
   - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"`
 
-- [修复Adobe在AMD平台上崩溃的问题](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)
+- ### [修复Adobe在AMD平台上崩溃的问题](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)
   - 经过测试的Adobe（2020）Photopshop，LightRoom Classic，Illustrator，Premier Pro，After Effects Bridge，Indesign，XD。如果重新安装任何Adobe应用程序，则将需要再次重做STEP-3。
   - Photoshop 图像打开、拖放和图像大小更改崩溃修复：使用 [Camera Raw 9.12.1](http://download.adobe.com/pub/adobe/photoshop/cameraraw/mac/9.x/CameraRaw_9_12_1_mac.zip)
   - Photoshop 液化完美使用
-- [如果你拥有创新声卡请看这里](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/SB1550drive/README.md)
+- ### [如果你拥有创新声卡请看这里](https://github.com/Ziloong/macOS-big-sur-for-Ryzen-2600x-OpenCore-EFI/blob/master/SB1550drive/README.md)
 
-- Drivers
+- ### Drivers
   - AudioDxe.efi UEFI音频驱动
   - HFSPlus.efi  文件系统驱动
   - OpenCanopy.efi  OpenCore主题
   - OpenRuntime.efi 内存驱动
   
-- intel 760p nvme外置硬盘改内置问题
+- ### intel 760p nvme外置硬盘改内置问题
 
   使用[Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) 进入到PCie选项 找到硬盘的设备地址 `PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)` 
 
