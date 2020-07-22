@@ -45,7 +45,7 @@
 
 - 开启Hidpi
 
-`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"`
+  - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"`
 
 - [修复Adobe在AMD平台上崩溃的问题](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)
   - 经过测试的Adobe（2020）Photopshop，LightRoom Classic，Illustrator，Premier Pro，After Effects Bridge，Indesign，XD。如果重新安装任何Adobe应用程序，则将需要再次重做STEP-3。
@@ -66,7 +66,14 @@
   Properties方式注入`built-in` 数据类型DATA写上`01`
 
 
-
+- 修复无WIFI导致状态栏卡顿问题
+  - 方法1
+    - [关闭SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
+    - `sudo mount -uw /` 
+    - `killall Finder`
+  - 方法2
+    - 在Recovery模式使用终端输入
+    - `mv Volumes/你的启动硬盘名字/System/Library/LaunchAgentsIgnored/com.apple.wifi.WiFiAgent.plist Volumes/你的启动硬盘名字/System/Library/LaunchAgents/`
 
 
 
