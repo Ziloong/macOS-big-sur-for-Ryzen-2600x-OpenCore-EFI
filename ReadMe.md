@@ -27,7 +27,7 @@
 
 ## 什么东西可以做的更好？
 
-- 休眠唤醒
+- ### 休眠唤醒
 
 
   - `sudo pmset -a hibernatemode 0` 
@@ -43,7 +43,7 @@
 
 
 
-- 开启Hidpi
+- ### 开启Hidpi
 
   - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"`
 
@@ -66,7 +66,7 @@
   Properties方式注入`built-in` 数据类型DATA写上`01`
 
 
-- 修复无WIFI导致状态栏卡顿问题
+- ### 修复无WIFI导致状态栏卡顿问题
   - 方法1
     - [关闭SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
     - `sudo mount -uw /` 
