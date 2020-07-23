@@ -71,6 +71,7 @@
     - [关闭SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#disabling-sip)
     - `sudo mount -uw /` 
     - `killall Finder`
+    - 进入/System/Library/LaunchAgentsIgnored/   然后删除com.apple.wifi.WiFiAgent.plist
   - 方法2
     - 在Recovery模式使用终端输入
     - `mv Volumes/你的启动硬盘名字/System/Library/LaunchAgentsIgnored/com.apple.wifi.WiFiAgent.plist Volumes/你的启动硬盘名字/System/Library/LaunchAgents/`
